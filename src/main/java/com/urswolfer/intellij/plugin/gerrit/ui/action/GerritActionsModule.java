@@ -33,6 +33,7 @@ public class GerritActionsModule extends AbstractModule {
         bind(CherryPickAction.class);
         bind(CompareBranchAction.class);
         bind(OpenInBrowserAction.class);
+        bind(OpenFileInBrowserAction.class);
         bind(SettingsAction.class);
         bind(SubmitAction.class);
         bind(AbandonAction.class);

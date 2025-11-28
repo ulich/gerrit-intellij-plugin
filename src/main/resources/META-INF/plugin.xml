@@ -597,6 +597,10 @@
             class="com.urswolfer.intellij.plugin.gerrit.ui.action.OpenInBrowserAction$Proxy">
       <add-to-group group-id="Gerrit.ListPopup" anchor="last"/>
     </action>
+      <action id="Gerrit.OpenFileInBrowser" text="Open in Gerrit"
+              class="com.urswolfer.intellij.plugin.gerrit.ui.action.OpenFileInBrowserAction$Proxy">
+          <add-to-group group-id="Gerrit.ListPopup" anchor="last"/>
+      </action>
 
     <action id="Gerrit.Refresh" text="Refresh"
             class="com.urswolfer.intellij.plugin.gerrit.ui.action.RefreshAction$Proxy">
